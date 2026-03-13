@@ -1,6 +1,9 @@
+import FloatingLines from "@/components/FloatingLines"
+
 export default function Home() {
   return (
-    <div className="relative w-screen h-screen overflow-hidden">
+    <div className="fixed inset-0 w-screen h-screen overflow-hidden bg-black">
+      <FloatingLines />
     </div>
   )
 }
