@@ -26,4 +26,14 @@ dist-ssr
 # Claude Code
 CLAUDE.md
 .mcp.json
-.claude/settings.local.json
+.claude/
+
+# Root-level markdown (keep README)
+/*.md
+!README.md
+
+# Reference/config files not needed for app
+/*.png
+circular.json
+home-page-reference.json
+idotive-reference.json

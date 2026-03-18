@@ -1,9 +1,25 @@
-import FloatingLines from "@/components/FloatingLines"
+import HeroSection from "@/components/sections/HeroSection";
+import AboutSection from "@/components/sections/AboutSection";
+import PortfolioSection from "@/components/sections/PortfolioSection";
+import ServicesSection from "@/components/sections/ServicesSection";
+import MethodSection from "@/components/sections/MethodSection";
+import VisionSection from "@/components/sections/VisionSection";
+import BentoGridSection from "@/components/sections/BentoGridSection";
+import TestimonialsSection from "@/components/sections/TestimonialsSection";
+import TeamSection from "@/components/sections/TeamSection";
 
 export default function Home() {
   return (
-    <div className="fixed inset-0 w-screen h-screen overflow-hidden bg-black">
-      <FloatingLines />
-    </div>
-  )
+    <>
+      <HeroSection />
+      <AboutSection />
+      <PortfolioSection />
+      <ServicesSection />
+      <MethodSection />
+      <VisionSection />
+      <BentoGridSection />
+      <TestimonialsSection />
+      <TeamSection />
+    </>
+  );
 }
